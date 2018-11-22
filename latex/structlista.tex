@@ -2,7 +2,7 @@
 \label{structlista}\index{lista@{lista}}
 
 
-Estrutura abstrata do tipo Lista , contendo estruturas do tipo Ninja.  
+Estrutura abstrata do tipo t\+\_\+lista , contendo estruturas do tipo elemento (Ninjas).  
 
 
 
@@ -12,39 +12,31 @@ Estrutura abstrata do tipo Lista , contendo estruturas do tipo Ninja.
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{structninja}{Ninja}} $\ast$ \mbox{\hyperlink{structlista_afabad83af39f6c62e272a359b377ad74}{ninja}}
+t\+\_\+elemento $\ast$ \mbox{\hyperlink{structlista_a122645dea0daca41c9392d5439947c0a}{primeiro}}
 \item 
-struct \mbox{\hyperlink{structlista}{lista}} $\ast$ \mbox{\hyperlink{structlista_a37e0c108b39d567c708004234ca03330}{anterior}}
-\item 
-struct \mbox{\hyperlink{structlista}{lista}} $\ast$ \mbox{\hyperlink{structlista_a75a04eea3bf4bbc679c49464ae83cabb}{proxima}}
+t\+\_\+elemento $\ast$ \mbox{\hyperlink{structlista_a176458b08862e25fa77999025ded6528}{fim}}
 \end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-Estrutura abstrata do tipo Lista , contendo estruturas do tipo Ninja. 
+Estrutura abstrata do tipo t\+\_\+lista , contendo estruturas do tipo elemento (Ninjas). 
 
-Esta estrutura abstrata do tipo lista duplamente encadeada guarda informações do ninja correspondende, assim como o ninja anterior e posterior na lista. 
+Esta estrutura abstrata para facilitar a manipulacao de uma lista duplamente encadeada que guarda informações do ninja correspondende, assim como o ninja anterior e posterior na lista. 
 
 \subsection{Member Data Documentation}
-\mbox{\Hypertarget{structlista_a37e0c108b39d567c708004234ca03330}\label{structlista_a37e0c108b39d567c708004234ca03330}} 
-\index{lista@{lista}!anterior@{anterior}}
-\index{anterior@{anterior}!lista@{lista}}
-\subsubsection{\texorpdfstring{anterior}{anterior}}
-{\footnotesize\ttfamily struct \mbox{\hyperlink{structlista}{lista}}$\ast$ lista\+::anterior}
+\mbox{\Hypertarget{structlista_a176458b08862e25fa77999025ded6528}\label{structlista_a176458b08862e25fa77999025ded6528}} 
+\index{lista@{lista}!fim@{fim}}
+\index{fim@{fim}!lista@{lista}}
+\subsubsection{\texorpdfstring{fim}{fim}}
+{\footnotesize\ttfamily t\+\_\+elemento$\ast$ lista\+::fim}
 
-elemento (ninja) anterior \mbox{\Hypertarget{structlista_afabad83af39f6c62e272a359b377ad74}\label{structlista_afabad83af39f6c62e272a359b377ad74}} 
-\index{lista@{lista}!ninja@{ninja}}
-\index{ninja@{ninja}!lista@{lista}}
-\subsubsection{\texorpdfstring{ninja}{ninja}}
-{\footnotesize\ttfamily \mbox{\hyperlink{structninja}{Ninja}}$\ast$ lista\+::ninja}
+Ultimo elemento na lista!! \mbox{\Hypertarget{structlista_a122645dea0daca41c9392d5439947c0a}\label{structlista_a122645dea0daca41c9392d5439947c0a}} 
+\index{lista@{lista}!primeiro@{primeiro}}
+\index{primeiro@{primeiro}!lista@{lista}}
+\subsubsection{\texorpdfstring{primeiro}{primeiro}}
+{\footnotesize\ttfamily t\+\_\+elemento$\ast$ lista\+::primeiro}
 
-Estrutura do tipo ninja \mbox{\Hypertarget{structlista_a75a04eea3bf4bbc679c49464ae83cabb}\label{structlista_a75a04eea3bf4bbc679c49464ae83cabb}} 
-\index{lista@{lista}!proxima@{proxima}}
-\index{proxima@{proxima}!lista@{lista}}
-\subsubsection{\texorpdfstring{proxima}{proxima}}
-{\footnotesize\ttfamily struct \mbox{\hyperlink{structlista}{lista}}$\ast$ lista\+::proxima}
-
-elemento (ninja) posterior 
+Primeiro elemento na lista! 
 
 The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 

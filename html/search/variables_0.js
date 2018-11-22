@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['anterior',['anterior',['../structlista.html#a37e0c108b39d567c708004234ca03330',1,'lista']]]
+  ['anterior',['anterior',['../structelemento.html#a4dbbd640d14a2b1cfa1cc0855daf1e3d',1,'elemento']]]
 ];

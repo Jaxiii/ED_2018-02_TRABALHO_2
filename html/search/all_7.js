@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['taijutsu',['taijutsu',['../structninja.html#aceb226ee3b2a48bc1bdfc29237adb5e5',1,'ninja']]]
+  ['primeiro',['primeiro',['../structlista.html#a122645dea0daca41c9392d5439947c0a',1,'lista']]],
+  ['proxima',['proxima',['../structelemento.html#a71d7ad5e15a4311eac4f33dc4b5d31d4',1,'elemento']]]
 ];

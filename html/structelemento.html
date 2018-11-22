@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: lista Struct Reference</title>
+<title>My Project: elemento Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,55 +63,72 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structlista-members.html">List of all members</a>  </div>
+<a href="structelemento-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">lista Struct Reference</div>  </div>
+<div class="title">elemento Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Estrutura abstrata do tipo t_lista , contendo estruturas do tipo elemento (Ninjas).  
- <a href="structlista.html#details">More...</a></p>
+<p>Estrutura abstrata do tipo Lista , contendo estruturas do tipo Ninja.  
+ <a href="structelemento.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="lista_8h_source.html">lista.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a122645dea0daca41c9392d5439947c0a"><td class="memItemLeft" align="right" valign="top">t_elemento *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlista.html#a122645dea0daca41c9392d5439947c0a">primeiro</a></td></tr>
-<tr class="separator:a122645dea0daca41c9392d5439947c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a176458b08862e25fa77999025ded6528"><td class="memItemLeft" align="right" valign="top">t_elemento *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlista.html#a176458b08862e25fa77999025ded6528">fim</a></td></tr>
-<tr class="separator:a176458b08862e25fa77999025ded6528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16aea73cc75aa4568de78596150bc05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structninja.html">Ninja</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structelemento.html#af16aea73cc75aa4568de78596150bc05">ninja</a></td></tr>
+<tr class="separator:af16aea73cc75aa4568de78596150bc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbbd640d14a2b1cfa1cc0855daf1e3d"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structlista.html">lista</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structelemento.html#a4dbbd640d14a2b1cfa1cc0855daf1e3d">anterior</a></td></tr>
+<tr class="separator:a4dbbd640d14a2b1cfa1cc0855daf1e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d7ad5e15a4311eac4f33dc4b5d31d4"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structlista.html">lista</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structelemento.html#a71d7ad5e15a4311eac4f33dc4b5d31d4">proxima</a></td></tr>
+<tr class="separator:a71d7ad5e15a4311eac4f33dc4b5d31d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">Estrutura abstrata do tipo t_lista , contendo estruturas do tipo elemento (Ninjas). </p>
-<p class="">Esta estrutura abstrata para facilitar a manipulacao de uma lista duplamente encadeada que guarda informações do ninja correspondende, assim como o ninja anterior e posterior na lista. </p>
+<div class="textblock"><p class="">Estrutura abstrata do tipo Lista , contendo estruturas do tipo Ninja. </p>
+<p class="">Esta estrutura abstrata do tipo lista duplamente encadeada guarda informações do ninja correspondende, assim como o ninja anterior e posterior na lista. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a176458b08862e25fa77999025ded6528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a176458b08862e25fa77999025ded6528">&#9670;&nbsp;</a></span>fim</h2>
+<a id="a4dbbd640d14a2b1cfa1cc0855daf1e3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dbbd640d14a2b1cfa1cc0855daf1e3d">&#9670;&nbsp;</a></span>anterior</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">t_elemento* lista::fim</td>
+          <td class="memname">struct <a class="el" href="structlista.html">lista</a>* elemento::anterior</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p class="">Ultimo elemento na lista!! </p>
+<p class="">elemento (ninja) anterior </p>
 
 </div>
 </div>
-<a id="a122645dea0daca41c9392d5439947c0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a122645dea0daca41c9392d5439947c0a">&#9670;&nbsp;</a></span>primeiro</h2>
+<a id="af16aea73cc75aa4568de78596150bc05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16aea73cc75aa4568de78596150bc05">&#9670;&nbsp;</a></span>ninja</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">t_elemento* lista::primeiro</td>
+          <td class="memname"><a class="el" href="structninja.html">Ninja</a>* elemento::ninja</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p class="">Primeiro elemento na lista! </p>
+<p class="">Estrutura do tipo ninja!! </p>
+
+</div>
+</div>
+<a id="a71d7ad5e15a4311eac4f33dc4b5d31d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d7ad5e15a4311eac4f33dc4b5d31d4">&#9670;&nbsp;</a></span>proxima</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structlista.html">lista</a>* elemento::proxima</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p class="">elemento (ninja) posterior </p>
 
 </div>
 </div>
