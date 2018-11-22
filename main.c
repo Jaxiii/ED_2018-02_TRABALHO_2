@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "exam_logic.h"
 
 int main() {
     int input;
@@ -14,6 +15,7 @@ int main() {
         switch (input)
         {
             case 1:
+                file();
                 break;
             case 2:
                 printf("%s", "Finalizando...\n");
